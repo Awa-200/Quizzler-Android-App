@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "684863808185",
+    "project_id": "quizzler-7db5c",
+    "storage_bucket": "quizzler-7db5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684863808185:android:14355b5ad41ce669407168",
+        "android_client_info": {
+          "package_name": "com.example.quizzlerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTCGUkTCdkTWDtD7DJlmkDmLRDUE7P_Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

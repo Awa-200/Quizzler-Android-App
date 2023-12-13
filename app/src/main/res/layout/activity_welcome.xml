@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/Pallete1">
+
+    <Button
+        android:id="@+id/btnCreateQuiz"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Create Quiz"
+        android:background="@color/Pallete2"
+        android:textAllCaps="false"
+        android:textColor="@color/Pallete4"
+        android:fontFamily="@font/chewy"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnQuizMenu"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:text="Quiz Menu"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/Pallete2"
+        android:textAllCaps="false"
+        android:textColor="@color/Pallete4"
+        android:fontFamily="@font/chewy"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnEditQuiz"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:text="Edit Quiz"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/Pallete2"
+        android:textAllCaps="false"
+        android:textColor="@color/Pallete4"
+        android:fontFamily="@font/chewy"
+        android:textSize="20sp"/>
+
+</LinearLayout>
