@@ -31,5 +31,15 @@ public class WelcomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button editQuiz = findViewById(R.id.btnEditQuiz);
+        editQuiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(WelcomeActivity.this, QuizMenu2Activity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
