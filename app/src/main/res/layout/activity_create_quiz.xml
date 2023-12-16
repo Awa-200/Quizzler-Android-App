@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Replace this with your actual layout for each question -->
+
         <EditText
             android:id="@+id/quizName"
             android:layout_width="match_parent"

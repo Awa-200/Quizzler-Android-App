@@ -9,7 +9,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Quiz buttons will be added here dynamically -->
 
     </LinearLayout>
 
