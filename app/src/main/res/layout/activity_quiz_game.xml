@@ -4,16 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".QuizGameActivity">
 
     <Button
         android:id="@+id/btnOptionA"
         android:layout_width="402dp"
         android:layout_height="61dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/chewy"
         android:text="Button"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtQuestion" />
 
@@ -22,9 +25,11 @@
         android:layout_width="402dp"
         android:layout_height="61dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/chewy"
         android:text="Button"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOptionA" />
 
@@ -33,8 +38,11 @@
         android:layout_width="402dp"
         android:layout_height="61dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/chewy"
         android:text="Button"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOptionB" />
 
@@ -43,20 +51,24 @@
         android:layout_width="402dp"
         android:layout_height="61dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/chewy"
         android:text="Button"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOptionC" />
 
     <TextView
         android:id="@+id/txtQuestion"
-        android:layout_width="404dp"
-        android:layout_height="82dp"
-        android:layout_marginTop="228dp"
+        android:layout_width="391dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="224dp"
+        android:fontFamily="@font/chewy"
         android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,10 +77,14 @@
         android:layout_width="172dp"
         android:layout_height="92dp"
         android:layout_marginBottom="108dp"
+        android:fontFamily="@font/chewy"
         android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/txtQuestion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

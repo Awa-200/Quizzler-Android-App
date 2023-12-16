@@ -33,6 +33,9 @@ public class QuizMenu2Activity extends AppCompatActivity {
                     for (QueryDocumentSnapshot document : task.getResult()) {
                         Button button = new Button(QuizMenu2Activity.this);
                         button.setText(document.getId());
+                        button.setBackgroundResource(R.color.Pallete2);
+                        button.setTextColor(getResources().getColor(R.color.Pallete4));
+                        button.setTypeface(getResources().getFont(R.font.chewy));
                         button.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {

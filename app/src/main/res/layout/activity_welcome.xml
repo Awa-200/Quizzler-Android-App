@@ -2,47 +2,48 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/sjghdon_"
     android:gravity="center"
-    android:orientation="vertical"
-    android:background="@color/Pallete1">
+    android:orientation="vertical">
+
 
     <Button
         android:id="@+id/btnCreateQuiz"
-        android:layout_width="125dp"
+        android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        android:text="Create Quiz"
         android:background="@color/Pallete2"
+        android:fontFamily="@font/chewy"
+        android:text="Create Quiz"
         android:textAllCaps="false"
         android:textColor="@color/Pallete4"
-        android:fontFamily="@font/chewy"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnQuizMenu"
-        android:layout_width="125dp"
+        android:layout_width="150dp"
         android:layout_height="50dp"
-        android:text="Quiz Menu"
-        android:layout_marginBottom="20dp"
         android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:background="@color/Pallete2"
+        android:fontFamily="@font/chewy"
+        android:text="Quiz Menu"
         android:textAllCaps="false"
         android:textColor="@color/Pallete4"
-        android:fontFamily="@font/chewy"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnEditQuiz"
-        android:layout_width="125dp"
+        android:layout_width="150dp"
         android:layout_height="50dp"
-        android:text="Edit Quiz"
-        android:layout_marginBottom="20dp"
         android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:background="@color/Pallete2"
+        android:fontFamily="@font/chewy"
+        android:text="Edit Quiz"
         android:textAllCaps="false"
         android:textColor="@color/Pallete4"
-        android:fontFamily="@font/chewy"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
 </LinearLayout>
