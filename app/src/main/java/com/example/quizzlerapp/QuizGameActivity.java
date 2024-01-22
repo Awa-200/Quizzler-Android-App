@@ -42,7 +42,8 @@ public class QuizGameActivity extends AppCompatActivity {
         btnOptionC = findViewById(R.id.btnOptionC);
         btnOptionD = findViewById(R.id.btnOptionD);
 
-        // Retrieve quiz name from Intent
+
+        //  quiz name from Intent
         quizName = getIntent().getStringExtra("quizName");
 
         // Load the first question
